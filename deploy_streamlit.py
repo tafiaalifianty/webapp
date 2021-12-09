@@ -1,6 +1,7 @@
 # Import Library
 import pickle as pkl
 import pandas as pd
+import numpy as np
 import streamlit as st
 
 # Load model
@@ -36,7 +37,7 @@ dt = pd.DataFrame({'RandD_true':[RandD_true],
 st.write(dt)
 
 # Prediction
-output_pred = model.predict(dt)
+#output_pred = model.predict(dt)
 
 # Display Result
-st.write('# Hasil Prediksi :', output_pred[0])
+#st.write('# Hasil Prediksi :', output_pred[0])
