@@ -41,3 +41,6 @@ output_pred = model.predict(dt)
 
 # Display Result
 st.write('# Hasil Prediksi :', output_pred[0])
+st.write('Perhatikan bahwa:')
+st.write('1. Prediksi = 0 artinya karyawan diprediksi tidak akan meninggalkan perusahaan')
+st.write('1. Prediksi = 1 artinya karyawan diprediksi akan meninggalkan perusahaan')
